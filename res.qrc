@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/controls.svg</file>
+    <file>icons/controls-alt.svg</file>
+    <file>icons/chevron-left.svg</file>
+    <file>icons/chevron-right.svg</file>
+    <file>icons/chevrons-left.svg</file>
+    <file>icons/chevrons-right.svg</file>
+    <file>icons/help.svg</file>
+    <file>icons/info.svg</file>
+    <file>icons/justify.svg</file>
+    <file>icons/list.svg</file>
+  </qresource>
+</RCC>

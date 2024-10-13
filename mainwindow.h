@@ -17,7 +17,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void onToolButtonConfigClicked();
+    
 private:
     Ui::MainWindow *ui;
+    bool CONFIG_WINDOW_OPEN = false;
 };
 #endif // MAINWINDOW_H
