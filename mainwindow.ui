@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>928</width>
-    <height>639</height>
+    <width>1280</width>
+    <height>720</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #fff;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -25,11 +28,30 @@
       </property>
       <property name="maximumSize">
        <size>
-        <width>150</width>
+        <width>360</width>
         <height>16777215</height>
        </size>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid #ccc;
+border-radius: 7px;</string>
+      </property>
       <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
        <item>
         <widget class="QFrame" name="frameConfig">
          <property name="frameShape">
@@ -66,6 +88,9 @@
            <height>48</height>
           </size>
          </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
          <property name="styleSheet">
           <string notr="true">border: none;</string>
          </property>
@@ -93,7 +118,7 @@
           </font>
          </property>
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;THỜI KHOÁ BIỂU THÔNG MINH&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;ỨNG DỤNG HỖ TRỢ LẬP THỜI KHOÁ BIỂU&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -113,6 +138,9 @@
            <width>48</width>
            <height>48</height>
           </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
          </property>
          <property name="styleSheet">
           <string notr="true">border: none;</string>
@@ -140,6 +168,9 @@
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
         <widget class="QFrame" name="frame">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="frameShape">
           <enum>QFrame::Shape::StyledPanel</enum>
          </property>
@@ -149,57 +180,539 @@
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
            <widget class="QTableWidget" name="tableWidget">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <bold>true</bold>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QTableWidget {
+    gridline-color: #ccc;
+}
+
+QHeaderView::section {
+    border: 1px solid #ccc;
+}
+
+QHeaderView::section:horizontal {
+    background-color: #8b0000;
+}
+
+QHeaderView::section:vertical {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Kiểu mặc định của thanh cuộn */
+QScrollBar:vertical {
+    border: none;
+    background: #f0f0f0; /* Màu nền nhạt */
+    width: 8px; /* Thanh cuộn nhỏ */
+    margin: 0px 0px 0px 0px;
+	border-radius: 4px;
+}
+
+QScrollBar::handle:vertical {
+    background: #a0a0a0; /* Màu tay cầm nhạt */
+    min-height: 40px;
+    border-radius: 4px;
+    transition: all 0.3s; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+    height: 0px; /* Ẩn nút mũi tên */
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+/* Kiểu khi hover vào thanh cuộn */
+QScrollBar:vertical:hover {
+    width: 12px; /* Tăng kích thước khi hover */
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #808080; /* Thay đổi màu để dễ nhìn hơn khi hover */
+    width: 12px; /* Đảm bảo kích thước tăng theo thanh cuộn */
+}
+
+QScrollBar::add-line:vertical:hover, QScrollBar::sub-line:vertical:hover {
+    height: 12px; /* Hiển thị lại nút mũi tên khi hover */
+}
+
+/* Kiểu mặc định của thanh cuộn ngang */
+QScrollBar:horizontal {
+    border: none;
+    background: #f0f0f0;
+    height: 8px;
+    margin: 0px 0px 0px 0px;
+	border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #a0a0a0;
+    min-width: 6px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: none;
+    background: none;
+    width: 0px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+/* Kiểu khi hover vào thanh cuộn ngang */
+QScrollBar:horizontal:hover {
+    height: 12px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #808080;
+    height: 12px;
+}
+
+QScrollBar::add-line:horizontal:hover, QScrollBar::sub-line:horizontal:hover {
+    width: 12px;
+}
+</string>
+            </property>
+            <property name="showGrid">
+             <bool>true</bool>
+            </property>
             <property name="rowCount">
              <number>12</number>
             </property>
             <property name="columnCount">
              <number>7</number>
             </property>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
-            <row/>
+            <attribute name="horizontalHeaderVisible">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="horizontalHeaderCascadingSectionResizes">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderMinimumSectionSize">
+             <number>200</number>
+            </attribute>
+            <attribute name="horizontalHeaderDefaultSectionSize">
+             <number>200</number>
+            </attribute>
+            <attribute name="verticalHeaderMinimumSectionSize">
+             <number>40</number>
+            </attribute>
+            <attribute name="verticalHeaderDefaultSectionSize">
+             <number>40</number>
+            </attribute>
+            <row>
+             <property name="text">
+              <string>1</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>2</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>3</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>4</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>5</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>6</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>7</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>8</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>9</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>10</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>11</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>12</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="textAlignment">
+              <set>AlignCenter</set>
+             </property>
+             <property name="foreground">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>51</red>
+                <green>51</green>
+                <blue>51</blue>
+               </color>
+              </brush>
+             </property>
+            </row>
             <column>
              <property name="text">
               <string>Thứ Hai</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="background">
+              <color>
+               <red>139</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
              </property>
             </column>
             <column>
              <property name="text">
               <string>Thứ Ba</string>
              </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="background">
+              <color>
+               <red>139</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
+             </property>
             </column>
             <column>
              <property name="text">
               <string>Thứ Tư</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="background">
+              <color>
+               <red>139</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
              </property>
             </column>
             <column>
              <property name="text">
               <string>Thứ Năm</string>
              </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="background">
+              <color>
+               <red>139</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
+             </property>
             </column>
             <column>
              <property name="text">
               <string>Thứ Sáu</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="background">
+              <color>
+               <red>139</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
              </property>
             </column>
             <column>
              <property name="text">
               <string>Thứ Bảy</string>
              </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="background">
+              <color>
+               <red>139</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
+             </property>
             </column>
             <column>
              <property name="text">
               <string>Chủ Nhật</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="background">
+              <color>
+               <red>139</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
              </property>
             </column>
            </widget>
