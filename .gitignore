@@ -90,3 +90,4 @@ build/
 # Ignore other IDE files
 .idea/
 .vscode/
+.cache/

@@ -1,0 +1,2212 @@
+{
+    "Tiếng Việt thực hành": {
+        "code": "241VL101",
+        "class_information": [
+            {
+                "class_id": "241_VL101_01",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->8",
+                        "room": "A502"
+                    },
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->8",
+                        "room": "ONLINE"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_VL101_02",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->5",
+                        "room": "A502"
+                    },
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->5",
+                        "room": "ONLINE"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_VL101_03",
+                "schedule": [
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "6->8",
+                        "room": "A502"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "6->8",
+                        "room": "ONLINE"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_VL101_04",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "3->5",
+                        "room": "A502"
+                    }
+                ]
+            }
+        ]
+    },
+    "Pháp luật đại cương": {
+        "code": "241SH131",
+        "class_information": [
+            {
+                "class_id": "241_SH131_01",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "12->13",
+                        "room": "Elearning"
+                    }
+                ]
+            }
+        ]
+    },
+    "Kiểm thử và đảm bảo chất lượng phần mềm": {
+        "code": "241SE312",
+        "class_information": [
+            {
+                "class_id": "241_SE312_04",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->5",
+                        "room": "A708"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "4->5",
+                        "room": "A708"
+                    }
+                ]
+            }
+        ]
+    },
+    "Gym cơ bản": {
+        "code": "241PG145",
+        "class_information": [
+            {
+                "class_id": "241_PG145_01",
+                "schedule": [
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG145_02",
+                "schedule": [
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            }
+        ]
+    },
+    "GDTC: Thể dục cơ bản": {
+        "code": "241PG118",
+        "class_information": [
+            {
+                "class_id": "241_PG118_18",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_19",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_20",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_21",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_22",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_23",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_24",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_25",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_26",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_27",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_28",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_29",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_30",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_31",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_32",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_33",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_34",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_35",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_36",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_37",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_38",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_39",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_40",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_41",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_42",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_43",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_44",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_45",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_46",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_47",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_48",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_49",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_50",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_51",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_52",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_53",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_54",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_55",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_56",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_57",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_58",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_59",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_60",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_61",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_62",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_63",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_64",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_65",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_66",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_67",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_68",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_69",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "8->9",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_70",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_71",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_72",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_73",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_74",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_75",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_76",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_77",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_78",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_79",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_80",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG118_81",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "6->7",
+                        "room": "NHATC"
+                    }
+                ]
+            }
+        ]
+    },
+    "GDTC: Thể dục cổ truyền cơ bản": {
+        "code": "241PG1021",
+        "class_information": [
+            {
+                "class_id": "241_PG102_15",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG102_16",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG102_17",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG102_18",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG102_19",
+                "schedule": [
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "1->2",
+                        "room": "NHATC"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_PG102_20",
+                "schedule": [
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "3->4",
+                        "room": "NHATC"
+                    }
+                ]
+            }
+        ]
+    },
+    "Khoa học môi trường": {
+        "code": "241NA151",
+        "class_information": [
+            {
+                "class_id": "241_NA151_01",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "12->13",
+                        "room": "Elearning"
+                    }
+                ]
+            }
+        ]
+    },
+    "Triết học Mác - Lênin": {
+        "code": "241ML113",
+        "class_information": [
+            {
+                "class_id": "241_ML113_01",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "12->13",
+                        "room": "Elearning"
+                    }
+                ]
+            }
+        ]
+    },
+    "Logic, suy luận toán học và kỹ thuật đếm": {
+        "code": "241MA101",
+        "class_information": [
+            {
+                "class_id": "241_MA101_04",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "8->10",
+                        "room": "B501"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_05",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->8",
+                        "room": "B507"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_06",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->5",
+                        "room": "B501"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_07",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "3->5",
+                        "room": "B507"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_08",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->5",
+                        "room": "B503"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_04_01(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "8->9",
+                        "room": "B501"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "9->10",
+                        "room": "A601"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_04_02(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "9->10",
+                        "room": "A507"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "8->9",
+                        "room": "B104"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_05_01(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "6->7",
+                        "room": "B705"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "6->7",
+                        "room": "B104"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_05_02(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "6->7",
+                        "room": "A507"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "6->7",
+                        "room": "A505"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_06_01(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "4->5",
+                        "room": "B705"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "4->5",
+                        "room": "A505"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_06_02(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "4->5",
+                        "room": "A503"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "4->5",
+                        "room": "A409"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_07_01(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "4->5",
+                        "room": "A509"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "4->5",
+                        "room": "A509"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_07_02(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "A505"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "4->5",
+                        "room": "A507"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_08_01(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->2",
+                        "room": "A505"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "4->5",
+                        "room": "B108"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_MA101_08_02(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "A505"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "1->2",
+                        "room": "A507"
+                    }
+                ]
+            }
+        ]
+    },
+    "Tiếng Anh trung cấp 1": {
+        "code": "241GE231",
+        "class_information": [
+            {
+                "class_id": "241_GE231_24",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->8",
+                        "room": "B611"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "6->8",
+                        "room": "B406"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_25",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->3",
+                        "room": "B607"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->3",
+                        "room": "B410"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_26",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->3",
+                        "room": "B510"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "1->3",
+                        "room": "B606"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_27",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "9->10",
+                        "room": "B212"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "9->10",
+                        "room": "A603"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "9->10",
+                        "room": "B110"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_28",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "8->10",
+                        "room": "B410"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "8->10",
+                        "room": "B402"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_29",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "B104"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "B110"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "1->2",
+                        "room": "A509"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_30",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "B308"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "B406"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "1->2",
+                        "room": "B512"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_31",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->5",
+                        "room": "B106"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "3->5",
+                        "room": "B404"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_32",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->5",
+                        "room": "B512"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "3->5",
+                        "room": "B603"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_33",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "6->7",
+                        "room": "B508"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "6->7",
+                        "room": "B508"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "6->7",
+                        "room": "B108"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_34",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "8->9",
+                        "room": "A503"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "8->9",
+                        "room": "B412"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "8->9",
+                        "room": "B106"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_35",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "9->10",
+                        "room": "B310"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "9->10",
+                        "room": "B404"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "9->10",
+                        "room": "B110"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_36",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "8->10",
+                        "room": "B510"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "8->10",
+                        "room": "B408"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_37",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "8->9",
+                        "room": "B504"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "8->9",
+                        "room": "B406"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "8->9",
+                        "room": "B510"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_38",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "4->5",
+                        "room": "A401"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "4->5",
+                        "room": "B510"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "4->5",
+                        "room": "B106"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_39",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "4->5",
+                        "room": "A503"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "4->5",
+                        "room": "B406"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "4->5",
+                        "room": "B508"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_40",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "6->8",
+                        "room": "B410"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "6->8",
+                        "room": "B110"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE231_41",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "9->10",
+                        "room": "A501"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "9->10",
+                        "room": "B310"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "9->10",
+                        "room": "B612"
+                    }
+                ]
+            }
+        ]
+    },
+    "Tiếng Anh sơ trung cấp 1": {
+        "code": "241GE121",
+        "class_information": [
+            {
+                "class_id": "241_GE121_09",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->3",
+                        "room": "B604"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "1->3",
+                        "room": "B604"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_10",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "4->5",
+                        "room": "B603"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "4->5",
+                        "room": "B605"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "4->5",
+                        "room": "B604"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_11",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "6->7",
+                        "room": "B605"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "6->7",
+                        "room": "A509"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "6->7",
+                        "room": "B613"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_12",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->7",
+                        "room": "B606"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "6->7",
+                        "room": "B606"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "6->7",
+                        "room": "B606"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_13",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->2",
+                        "room": "B610"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->2",
+                        "room": "B605"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "1->2",
+                        "room": "B608"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_14",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "8->10",
+                        "room": "B610"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "8->10",
+                        "room": "B605"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_15",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->3",
+                        "room": "B605"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "1->3",
+                        "room": "B605"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_16",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->5",
+                        "room": "B612"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "3->5",
+                        "room": "A403"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_17",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->7",
+                        "room": "B612"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "6->7",
+                        "room": "A505"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "6->7",
+                        "room": "B506"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_18",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "9->10",
+                        "room": "B210"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "9->10",
+                        "room": "B110"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "9->10",
+                        "room": "B611"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_19",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "9->10",
+                        "room": "A509"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "9->10",
+                        "room": "B110"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "9->10",
+                        "room": "B310"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_20",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->5",
+                        "room": "B108"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "3->5",
+                        "room": "B108"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_21",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->3",
+                        "room": "A605"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "1->3",
+                        "room": "A503"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_22",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "9->10",
+                        "room": "B412"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "9->10",
+                        "room": "A405"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "9->10",
+                        "room": "B104"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE121_23",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "9->10",
+                        "room": "B408"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "9->10",
+                        "room": "B104"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "9->10",
+                        "room": "B108"
+                    }
+                ]
+            }
+        ]
+    },
+    "Tiếng Anh sơ cấp 1": {
+        "code": "241GE111",
+        "class_information": [
+            {
+                "class_id": "241_GE111_01",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->2",
+                        "room": "B603"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->2",
+                        "room": "B603"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "1->2",
+                        "room": "B603"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_02",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->2",
+                        "room": "B604"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->2",
+                        "room": "B604"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "1->2",
+                        "room": "B604"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_03",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->7",
+                        "room": "B605"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "6->7",
+                        "room": "B611"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "6->7",
+                        "room": "B613"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_04",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "4->5",
+                        "room": "B611"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "4->5",
+                        "room": "B611"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "4->5",
+                        "room": "B606"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_05",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->5",
+                        "room": "B603"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "3->5",
+                        "room": "B603"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_06",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "3->5",
+                        "room": "B604"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "3->5",
+                        "room": "B604"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_07",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->5",
+                        "room": "B604"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "3->5",
+                        "room": "B603"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_08",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "8->9",
+                        "room": "B606"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "8->9",
+                        "room": "B612"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "8->9",
+                        "room": "B606"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_09",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "6->8",
+                        "room": "B607"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "6->8",
+                        "room": "B607"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_10",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "9->10",
+                        "room": "B611"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "9->10",
+                        "room": "B605"
+                    },
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "9->10",
+                        "room": "B612"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_11",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "B601"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "B602"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "1->2",
+                        "room": "B608"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_12",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "B606"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "B604"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "1->2",
+                        "room": "B605"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_13",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->3",
+                        "room": "B607"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->3",
+                        "room": "B607"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE111_14",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "6->8",
+                        "room": "B607"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "6->8",
+                        "room": "B608"
+                    }
+                ]
+            }
+        ]
+    },
+    "Tiếng Anh sơ cấp 2": {
+        "code": "241GE112",
+        "class_information": [
+            {
+                "class_id": "241_GE112_01",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "B603"
+                    },
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "B603"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "1->2",
+                        "room": "B603"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_GE112_02",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->5",
+                        "room": "B612"
+                    },
+                    {
+                        "day": "Thứ Tư",
+                        "time": "3->5",
+                        "room": "B612"
+                    }
+                ]
+            }
+        ]
+    },
+    "Lập trình Java": {
+        "code": "241CS223",
+        "class_information": [
+            {
+                "class_id": "241_CS223_02",
+                "schedule": [
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "4->5",
+                        "room": "A708"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "8->10",
+                        "room": "A708"
+                    }
+                ]
+            }
+        ]
+    },
+    "Tin học văn phòng": {
+        "code": "241CS102",
+        "class_information": [
+            {
+                "class_id": "241_CS102_11",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "1->2",
+                        "room": "B708"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "12->13",
+                        "room": "ONLINE"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS102_12",
+                "schedule": [
+                    {
+                        "day": "Thứ Hai",
+                        "time": "3->4",
+                        "room": "B708"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "12->13",
+                        "room": "ONLINE"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS102_13",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "1->2",
+                        "room": "B708"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "12->13",
+                        "room": "ONLINE"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS102_14",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->4",
+                        "room": "B708"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "12->13",
+                        "room": "ONLINE"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS102_15",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "1->2",
+                        "room": "B708"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "12->13",
+                        "room": "ONLINE"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS102_16",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "3->4",
+                        "room": "B708"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "12->13",
+                        "room": "ONLINE"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS102_17",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "B708"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "12->13",
+                        "room": "ONLINE"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS102_18",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "3->4",
+                        "room": "B708"
+                    },
+                    {
+                        "day": "Thứ Bảy",
+                        "time": "12->13",
+                        "room": "ONLINE"
+                    }
+                ]
+            }
+        ]
+    },
+    "Tin đại cương": {
+        "code": "241CS100",
+        "class_information": [
+            {
+                "class_id": "241_CS100_01",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "9->10",
+                        "room": "A702"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS100_02",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "9->10",
+                        "room": "A708"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS100_03",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "9->10",
+                        "room": "A702"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS100_04",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "6->7",
+                        "room": "A702"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS100_05",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "1->2",
+                        "room": "A702"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS100_01_01(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Tư",
+                        "time": "8->10",
+                        "room": "A702"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS100_02_01(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Sáu",
+                        "time": "8->10",
+                        "room": "A708"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS100_03_01(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Năm",
+                        "time": "8->10",
+                        "room": "A702"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS100_04_01(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "6->8",
+                        "room": "A702"
+                    }
+                ]
+            },
+            {
+                "class_id": "241_CS100_05_01(BT)",
+                "schedule": [
+                    {
+                        "day": "Thứ Ba",
+                        "time": "3->5",
+                        "room": "A702"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -19,7 +19,6 @@ public:
 
 private slots:
     void onToolButtonConfigClicked();
-    
 private:
     Ui::MainWindow *ui;
     bool CONFIG_WINDOW_OPEN = false;
