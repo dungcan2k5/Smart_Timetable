@@ -31,7 +31,7 @@ struct ClassInformation
 };
 
 /// @brief Thông tin về học phần
-/// @param name Tên môn phần
+/// @param name Tên học phần
 /// @param code Mã học phần
 /// @param classInformation Vector đối tượng `ClassInformation`
 struct Subject
@@ -49,6 +49,7 @@ private:
 public:
     void addSubject(Subject &subject);
     vector<Subject> getSubjects();
+    Subject getSubjects(string &name);
     // Subject getSubject(string code);
 };
 

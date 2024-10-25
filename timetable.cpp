@@ -10,13 +10,22 @@ vector<Subject> TimeTable::getSubjects()
     return subjects;
 }
 
+Subject TimeTable::getSubjects(string &name)
+{
+    for (const auto &subject : subjects)
+    {
+        if (subject.name == name)
+            return subject;
+    }
+    return Subject(); // Nếu không tìm thấy học phần
+}
+
 TimeTable loadJsonFile(const string &filePath)
 {
     TimeTable timeTable;
 
     ifstream jsonFile(filePath);
     json j = json::parse(jsonFile);
-    // cout << j << endl;
 
     // Lặp qua từng học phần
     for (const auto &subjectJson : j.items())

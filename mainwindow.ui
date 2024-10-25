@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1280</width>
-    <height>720</height>
+    <height>820</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,13 +22,13 @@
      <widget class="QWidget" name="configWindow" native="true">
       <property name="minimumSize">
        <size>
-        <width>100</width>
+        <width>0</width>
         <height>0</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>360</width>
+        <width>400</width>
         <height>16777215</height>
        </size>
       </property>
@@ -63,10 +63,7 @@ border-radius: 7px;</string>
          <property name="frameShadow">
           <enum>QFrame::Shadow::Raised</enum>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_2">
-          <property name="spacing">
-           <number>0</number>
-          </property>
+         <layout class="QGridLayout" name="gridLayout_2">
           <property name="leftMargin">
            <number>0</number>
           </property>
@@ -79,20 +76,142 @@ border-radius: 7px;</string>
           <property name="bottomMargin">
            <number>0</number>
           </property>
-          <item>
+          <item row="0" column="0">
            <widget class="QScrollArea" name="scrollArea">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">/* Kiểu mặc định của thanh cuộn */
+QScrollBar:vertical {
+    border: none;
+    background: #f0f0f0; /* Màu nền nhạt */
+    width: 8px; /* Thanh cuộn nhỏ */
+    margin: 0px 0px 0px 0px;
+	border-radius: 4px;
+}
+
+QScrollBar::handle:vertical {
+    background: #a0a0a0; /* Màu tay cầm nhạt */
+    min-height: 40px;
+    border-radius: 4px;
+    transition: all 0.3s; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+    height: 0px; /* Ẩn nút mũi tên */
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+/* Kiểu khi hover vào thanh cuộn */
+QScrollBar:vertical:hover {
+    width: 12px; /* Tăng kích thước khi hover */
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #808080; /* Thay đổi màu để dễ nhìn hơn khi hover */
+    width: 12px; /* Đảm bảo kích thước tăng theo thanh cuộn */
+}
+
+QScrollBar::add-line:vertical:hover, QScrollBar::sub-line:vertical:hover {
+    height: 12px; /* Hiển thị lại nút mũi tên khi hover */
+}
+
+/* Kiểu mặc định của thanh cuộn ngang */
+QScrollBar:horizontal {
+    border: none;
+    background: #f0f0f0;
+    height: 8px;
+    margin: 0px 0px 0px 0px;
+	border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #a0a0a0;
+    min-width: 6px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: none;
+    background: none;
+    width: 0px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+/* Kiểu khi hover vào thanh cuộn ngang */
+QScrollBar:horizontal:hover {
+    height: 12px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #808080;
+    height: 12px;
+}
+
+QScrollBar::add-line:horizontal:hover, QScrollBar::sub-line:horizontal:hover {
+    width: 12px;
+}
+
+QScrollArea {
+	border: none;
+}</string>
+            </property>
             <property name="widgetResizable">
              <bool>true</bool>
             </property>
-            <widget class="QWidget" name="scrollAreaWidgetContents_3">
+            <widget class="QWidget" name="scrollAreaWidgetContents">
              <property name="geometry">
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>360</width>
-               <height>632</height>
+               <width>400</width>
+               <height>732</height>
               </rect>
              </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border: none;</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_2">
+              <item>
+               <widget class="QFrame" name="frameAllSchedule">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border: none;
+background: none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::Shape::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Shadow::Raised</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
             </widget>
            </widget>
           </item>

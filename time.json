@@ -9,11 +9,6 @@
                         "day": "Thứ Hai",
                         "time": "6->8",
                         "room": "A502"
-                    },
-                    {
-                        "day": "Thứ Hai",
-                        "time": "6->8",
-                        "room": "ONLINE"
                     }
                 ]
             },
@@ -24,11 +19,6 @@
                         "day": "Thứ Hai",
                         "time": "3->5",
                         "room": "A502"
-                    },
-                    {
-                        "day": "Thứ Hai",
-                        "time": "3->5",
-                        "room": "ONLINE"
                     }
                 ]
             },
@@ -39,11 +29,6 @@
                         "day": "Thứ Bảy",
                         "time": "6->8",
                         "room": "A502"
-                    },
-                    {
-                        "day": "Thứ Bảy",
-                        "time": "6->8",
-                        "room": "ONLINE"
                     }
                 ]
             },
