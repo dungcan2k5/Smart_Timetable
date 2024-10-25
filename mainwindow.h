@@ -18,7 +18,9 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    bool checkAvailable(const Subject &subject);
+    void chooseSubject(const Subject &subject);
+    bool checkClass(const ClassInformation &ClassInfo);
+    bool checkSchedule(const Schedule &schedule);
     void showTimeTable();
 
 private slots:

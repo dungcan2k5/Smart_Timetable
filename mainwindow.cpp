@@ -7,13 +7,15 @@
 #include <QCheckBox>
 #include <QVBoxLayout>
 
-vector<int> extractNumbers(const string &rangeStr) {
+vector<int> extractNumbers(const string &rangeStr)
+{
     std::vector<int> numbers;
     std::istringstream iss(rangeStr);
     int number;
     char arrow;
 
-    while (iss >> number) {
+    while (iss >> number)
+    {
         numbers.push_back(number);
         iss >> arrow; // Đọc và bỏ qua ký tự "->"
     }
@@ -107,25 +109,20 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-bool MainWindow::checkAvailable(const Subject &subject)
+void MainWindow::chooseSubject(const Subject &subject)
 {
-    bool vaild = false;
     for (auto &&classInfo : subject.classInformation)
-        for (auto &&schedule : classInfo.schedules)
-        {
-            vector<int> _time = extractNumbers(schedule.time);
-            for (int i = _time[0]; i < _time[1]; i++)
-            {
-                if (c[day_index->find(schedule.day)][i] == 1)
-                {
-                    vaild = false;
-                    break;
-                }
-            }
-            vaild = true;
-            return vaild;
-        }
-    return vaild;
+        if (checkClass(classInfo))
+}
+
+bool MainWindow::checkClass(const ClassInformation &ClassInfo)
+{
+    return false;
+}
+
+bool MainWindow::checkSchedule(const Schedule &schedule)
+{
+    return false;
 }
 
 void MainWindow::showTimeTable()
@@ -158,18 +155,14 @@ void MainWindow::checkBoxChecked(const Subject &subject)
     for (int i = 0; i < selectedSubject.size(); i++)
         if (selectedSubject[i].name == subject.name)
         {
-            if (checkAvailable(subject))
-            {
-                selectedSubject[i] = subject;
-                showTimeTable();
-            }
+            selectedSubject[i] = subject;
+            chooseSubject(subject);
+            showTimeTable();
+
             return;
         }
-    if (checkAvailable(subject))
-    {
-        selectedSubject.push_back(subject);
-        showTimeTable();
-    }
+    chooseSubject(subject);
+    showTimeTable();
 }
 
 void MainWindow::checkBoxChecked(const vector<Schedule> &schedule, const string &classId, const string &subjectName)
@@ -194,11 +187,8 @@ void MainWindow::checkBoxChecked(const vector<Schedule> &schedule, const string 
     newSubject.code = classId;
     newSubject.classInformation.push_back(newClass);
 
-    if (checkAvailable(newSubject))
-    {
-        selectedSubject.push_back(newSubject);
-        // showTimeTable();
-    }
+    chooseSubject(newSubject);
+    showTimeTable();
 }
 
 void MainWindow::toolButtonConfigClicked()
